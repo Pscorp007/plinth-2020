@@ -2990,7 +2990,7 @@ body.ready .navigation {
 .block__title {
 	letter-spacing: 0.1em;
 	margin: 3rem -0.3em 0 0;
-	font-size: 8rem;
+	font-size: 6.5rem;
 	letter-spacing: 0em
 }
 
@@ -3013,7 +3013,7 @@ body.ready .navigation {
 
 @media screen and (max-width: 62em) {
 	.block__title--mars {
-		font-size: 7.5rem;
+		font-size: 6.5rem;
 		margin: 3rem -0.3em 13rem 0
 	}
 	.block__title--quiz {
@@ -3290,7 +3290,7 @@ body.ready .mars__black {
 }
 
 .mars__logo {
-	background-image: url("images/Header/logo-mars.png");
+	background-image: url("images/Header/logo-mars1.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 30rem;
