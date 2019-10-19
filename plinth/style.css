@@ -3008,7 +3008,7 @@ body.ready .navigation {
 .block__title {
 	letter-spacing: 0.25em;
 	margin: 3rem -0.3em 0 0;
-	font-size: 6.5rem;
+	font-size: 8rem;
 	letter-spacing: 0em;
 }
 
@@ -3057,11 +3057,11 @@ body.ready .navigation {
 
 @media screen and (max-width: 30em) {
 	.block__title {
-		font-size: 3rem;
+		font-size: 3.6rem;
 		padding: 0 2.7rem 0 1.7rem;
 	}
 	.block__title--mars {
-		font-size: 2.5rem;
+		font-size: 3.8rem;
 		margin: 0 0 20rem 0rem;
 	}
 	.block__title--boek {
