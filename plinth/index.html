@@ -52,6 +52,31 @@
 })(window,document,'script','dataLayer','GTM-T9JNFT');</script>
 <!-- End Google Tag Manager -->
 </head>
+
+<nav >
+		<div class="logo-plinth">
+				<img src="images/logo.svg" alt="Logo Image">
+		</div>
+		<div class="hamburger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+		</div>
+		<ul class="nav-links">
+				<li><a href="#start">Home</a></li>
+				<li><a href="#intro">About</a></li>
+				<li><a href="#competition">Competitions</a></li>
+				<li><a href="#">Workshops</a></li>
+				<li><a href="#">Talks</a></li>
+				<li><a href="#">ProShow</a></li>
+				<li><button class="login-button" href="#">Login</button></li>
+				<li><button class="join-button" href="#">Join</button></li>
+		</ul>
+</nav>
+<script src="nav.js"></script>
+
+
+
 <body>
 
 	<!-- Google Tag Manager (noscript) -->
@@ -127,7 +152,7 @@
 						<div class="row center-md">
 							<div class="col-md-12">
 								<div class="header__content">
-									<div class="logo logo--center"></div>
+									<!-- <div class="logo logo--center"></div> -->
 									<div class="mars__logo mars__logo--center mars__logo--header">
 										<div class="logo__flare"></div>
 										<div class="logo__flare2"></div>
@@ -204,7 +229,7 @@
 										<img class="button--glitch-3" src="http://levenopmars.natgeotv.com/nl/images/icons/polygon-full.svg">
 										<img class="button--glitch-4" src="http://levenopmars.natgeotv.com/nl/images/icons/icon-plus.svg">
 									</div>
-									<span class="link__text link__text--right" data-text="Meer over de serie">Click To know more</span>
+									<span class="link__text link__text--right" data-text="Click To know more">Click To know more</span>
 								</a>
 							</div>
 						</div>
@@ -416,11 +441,20 @@
 				</ul>
 			</footer>
 		</div>
-
-	
 			<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous" defer></script>
 			<script src="js/libs/tweenmax.min.js" defer></script>
 			<script src="js/main.min.js" defer></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+		$(window).scroll(function() {
+			if ($(document).scrollTop() > 100) {
+				console.log("ahkdsj");
+				$("nav").addClass('hey');
+			} else {
+				$("nav").removeClass('hey');
+			}
+		});
+		</script>
+			
 		</body>
 		</html>
