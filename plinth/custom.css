@@ -113,6 +113,7 @@ nav {
 		z-index: 3;
 	}
 	.logo-plinth {
+		margin-left: 4px;
 		z-index: 5;
 	}
 
