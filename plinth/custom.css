@@ -4,7 +4,7 @@ nav {
 	display: flex;
 	position: fixed;
 	z-index: 9999;
-	-webkit-transition: background-color 1500ms linear;
+	-webkit-transition: background-color 1200ms linear;
 }
 
 /*Styling logo*/
@@ -21,7 +21,7 @@ nav {
 /*Styling Links*/
 .color-change {
 	background-color: black !important;
-	-webkit-transition: background-color 1500ms linear;
+	-webkit-transition: background-color 1200ms linear;
 }
 
 .nav-links {

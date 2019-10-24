@@ -2147,9 +2147,12 @@ body {
 	float: left;
 	width: 100%;
 	padding: 0 5rem;
-	margin: 0 0 2.5rem 0;
-	position: relative;
-	z-index: 1;
+	margin: 20rem 0 0 0;
+
+	-webkit-transition: background-color 1000ms linear;
+	position: fixed;
+	bottom: 0;
+	z-index: 10;
 }
 
 .footer__list {
@@ -2158,6 +2161,7 @@ body {
 	padding: 0;
 	float: left;
 	width: 100%;
+	margin: 0.5rem 0 0.5rem 0;
 }
 
 .footer__item {
@@ -2211,7 +2215,7 @@ body {
 
 .footer__item--right {
 	float: right;
-	margin: 0 10rem 0 0;
+	margin: 0 4rem 0 0;
 }
 
 @media screen and (max-width: 62em) {
@@ -2219,9 +2223,6 @@ body {
 		margin: 0;
 		width: 100%;
 		text-align: center;
-	}
-	.footer__item--right .logo {
-		margin: 30px auto;
 	}
 }
 
@@ -2941,6 +2942,7 @@ body.ready .navigation {
 	position: relative;
 	width: 100%;
 	z-index: 2;
+	margin-bottom: 20rem;
 }
 
 .block--intro,
@@ -3211,8 +3213,8 @@ body.ready .navigation {
 }
 
 .social__channel {
-	float: left;
-	width: 33.33%;
+	float: right;
+	width: 25%;
 }
 
 .logo {
@@ -3995,47 +3997,6 @@ body.ready .mars__logo {
 	z-index: 10;
 }
 
-.button--facebook:before,
-.button--twitter:before,
-.button--instagram:before {
-	position: relative;
-	top: 22px;
-	display: inline-block;
-}
-
-.button--facebook:hover:after,
-.button--twitter:hover:after,
-.button--instagram:hover:after {
-	content: '';
-	background-image: url("images/Icons/polygon-extend.svg");
-	background-repeat: no-repeat;
-	width: 9.2rem;
-	height: 8.5rem;
-	position: absolute;
-	left: -12px;
-	top: -12px;
-	animation-name: zoomIn;
-	animation-iteration-count: 1;
-	animation-duration: .3s;
-	animation-delay: 0s;
-	animation-timing-function: ease;
-	animation-fill-mode: both;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.button--facebook:before {
-	content: url("http://levenopmars.natgeotv.com/nl/images/Icons/icon-fb.svg");
-}
-
-.button--twitter:before {
-	content: url("images/Icons/icon-tw.svg");
-}
-
-.button--instagram:before {
-	content: url("http://levenopmars.natgeotv.com/nl/images/Icons/icon-ig.svg");
-}
-
 .button--left {
 	float: left;
 }
@@ -4310,4 +4271,55 @@ body.ready .stars {
 	background-size: contain;
 	opacity: 0.6;
 	z-index: -1;
+}
+
+.social-link {
+	text-decoration: none;
+}
+
+.facebook-link {
+	height: 2rem;
+	width: 2rem;
+	margin-right: 2rem;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	transition: color 0.25s ease-in;
+}
+
+.twitter-link {
+	height: 2rem;
+	width: 2rem;
+	margin-right: 2rem;
+	text-decoration: none;
+	color: white;
+	transition: color 0.25s ease-in;
+}
+.instagram-link {
+	height: 2rem;
+	width: 2rem;
+	margin-right: 2rem;
+	text-decoration: none;
+	color: white;
+	transition: color 0.25s ease-in;
+}
+
+.fa-facebook-official:hover {
+	color: #c46b16 !important;
+	transition: color 0.35s ease-in;
+}
+
+.fa-twitter-square:hover {
+	color: #c46b16 !important;
+	transition: color 0.35s ease-in;
+}
+
+.fa-instagram:hover {
+	color: #c46b16 !important;
+	transition: color 0.35s ease-in;
+}
+
+.color-change2 {
+	background-color: black !important;
+	-webkit-transition: background-color 1200ms linear;
 }
