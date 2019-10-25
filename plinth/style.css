@@ -2183,8 +2183,8 @@ body {
 @media screen and (max-width: 48em) {
 	.footer__item {
 		width: 25%;
-		font-size: 1.2rem;
-		line-height: 1.5rem;
+		font-size: 1.3rem;
+		line-height: 1.8rem;
 	}
 }
 
