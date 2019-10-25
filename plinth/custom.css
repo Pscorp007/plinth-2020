@@ -122,12 +122,16 @@ nav {
 @media screen and (max-width: 800px) {
 	nav {
 		position: fixed;
-		z-index: 3;
+		z-index: 10;
+		line-height: 4rem;
 	}
 
 	.logo-plinth {
 		margin-left: 4px;
 		z-index: 5;
+		height: 1.5rem;
+		width: 1.5rem;
+		padding: 0.5vh;
 	}
 
 	.hamburger {
@@ -137,7 +141,7 @@ nav {
 		right: 5%;
 		top: 50%;
 		transform: translate(-5%, -50%);
-		z-index: 2;
+		z-index: 10;
 		transition: all 0.7s ease;
 	}
 

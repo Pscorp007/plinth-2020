@@ -2152,7 +2152,7 @@ body {
 	-webkit-transition: background-color 1000ms linear;
 	position: fixed;
 	bottom: 0;
-	z-index: 10;
+	z-index: 7;
 }
 
 .footer__list {
@@ -2166,10 +2166,10 @@ body {
 
 .footer__item {
 	font-family: "NGC-CondBold", sans-serif;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 	float: left;
-	line-height: 4rem;
+	line-height: 3rem;
 	padding: 0 1rem;
 }
 
@@ -2182,9 +2182,19 @@ body {
 
 @media screen and (max-width: 48em) {
 	.footer__item {
-		width: 100%;
+		width: 25%;
+		font-size: 0.75rem;
+		line-height: 1.5rem;
 	}
 }
+
+/*@media screen and (max-width: 48em) {
+	.footer__link {
+		font-size: 0.5rem;
+		width: 100%;
+		overflow: hidden;
+	}
+}*/
 
 .footer__item:first-of-type {
 	padding: 0 2rem 0 4rem;
@@ -2223,6 +2233,16 @@ body {
 		margin: 0;
 		width: 100%;
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 48em) {
+	.footer__item--right {
+		padding-left: 2rem;
+		padding-right: 0;
+		width: 70%;
+		text-align: right;
+		margin: 0;
 	}
 }
 
@@ -4189,9 +4209,9 @@ body.ready .stars {
 }
 
 .cookie {
-	width: 780px;
+	width: 720px;
 	max-width: 90%;
-	height: 480px;
+	height: 360px;
 	max-height: 95%;
 	position: fixed;
 	bottom: 0;
@@ -4244,7 +4264,7 @@ body.ready .stars {
 	cursor: pointer;
 	line-height: 15px;
 	height: 40px;
-	padding: 10px 20px 10px 50px;
+	padding: 10px 10px 10px 10px;
 	margin-top: 10px;
 	font-size: 1.6rem;
 	letter-spacing: .1em;
@@ -4254,6 +4274,7 @@ body.ready .stars {
 	background-image: url("images/icons/checkmark-white.svg");
 	background-repeat: no-repeat;
 	background-position: 20px center;
+	text-align: center;
 }
 
 .cookie__url {
@@ -4302,6 +4323,20 @@ body.ready .stars {
 	text-decoration: none;
 	color: white;
 	transition: color 0.25s ease-in;
+}
+
+.youtube-link {
+	height: 2rem;
+	width: 2rem;
+	margin-right: 2rem;
+	text-decoration: none;
+	color: white;
+	transition: color 0.25s ease-in;
+}
+
+.fa-youtube-play:hover {
+	color: #c46b16 !important;
+	transition: color 0.35s ease-in;
 }
 
 .fa-facebook-official:hover {
