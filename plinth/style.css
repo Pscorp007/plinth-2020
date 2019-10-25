@@ -2240,10 +2240,9 @@ body {
 	.footer__item--right {
 		padding-left: 2rem;
 		padding-right: 0rem;
-		width: 70%;
+		width: 75%;
 		text-align: right;
 		margin: 0;
-		margin-right: -5px;
 	}
 }
 
