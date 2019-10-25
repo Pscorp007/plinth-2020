@@ -2166,7 +2166,7 @@ body {
 
 .footer__item {
 	font-family: "NGC-CondBold", sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 	text-transform: uppercase;
 	float: left;
 	line-height: 3rem;
@@ -2183,7 +2183,7 @@ body {
 @media screen and (max-width: 48em) {
 	.footer__item {
 		width: 25%;
-		font-size: 0.75rem;
+		font-size: 1.2rem;
 		line-height: 1.5rem;
 	}
 }
@@ -2239,10 +2239,11 @@ body {
 @media screen and (max-width: 48em) {
 	.footer__item--right {
 		padding-left: 2rem;
-		padding-right: 0;
-		width: 70%;
+		padding-right: 0rem;
+		width: 55%;
 		text-align: right;
 		margin: 0;
+		margin-right: -5px;
 	}
 }
 
