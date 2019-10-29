@@ -251,7 +251,8 @@ body {
 }
 
 .footer__link:hover {
-	color: #c46b16;
+	color: #c46b16 !important;
+	text-decoration: none !important;
 }
 
 .social-link {
