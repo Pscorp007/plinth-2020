@@ -2774,7 +2774,7 @@ p {
 .navigation {
 	z-index: 99;
 	position: fixed;
-	margin: 22.5rem 0 0 5rem;
+	margin: 23rem 0 0 5rem;
 	display: none;
 	opacity: 0;
 	transition: opacity 500ms;
@@ -3342,7 +3342,7 @@ body.ready .mars__black {
 }
 
 .mars__logo {
-	background-image: url("images/Header/logo-mars1.png");
+	background-image: url("images/Header/logo-plinth1.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 30rem;
