@@ -130,7 +130,7 @@ html {
 	position: relative;
 	min-height: 100%;
 	width: 100%;
-	overflow-y: auto;
+	overflow: hidden;
 
 	color: #fff;
 }
@@ -139,13 +139,13 @@ body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	overflow-x: hidden;
-	overflow-y: auto;
-
+	/*overflow-x: hidden;
+	overflow-y: auto;*/
+	overflow: hidden;
 	background: url("/plinth/images/Header/nebula.png") top right no-repeat, url("/plinth/images/background.jpg");
 
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
 	background-position: center;
 
 	z-index: -2;
@@ -408,7 +408,7 @@ nav {
 	display: block;
 	float: left;
 	width: 100%;
-	padding: 0 5rem;
+	padding: 0 2rem;
 	margin: 20rem 0 0 0;
 	background: url("/plinth/images/star.jpg");
 	-webkit-transition: background-color 1000ms linear;
@@ -500,9 +500,9 @@ nav {
 
 @media screen and (max-width: 48em) {
 	.footer__item--right {
-		padding-left: 2rem;
+		padding-left: 1.5rem;
 		padding-right: 0rem;
-		width: 75%;
+		width: 50%;
 		text-align: right;
 		margin: 0;
 	}
@@ -557,6 +557,21 @@ nav {
 	text-decoration: none;
 	color: white;
 	transition: color 0.25s ease-in;
+}
+
+@media screen and (max-width: 48em) {
+	.facebook-link {
+		margin-right: 15px;
+	}
+	.twitter-link {
+		margin-right: 15px;
+	}
+	.instagram-link {
+		margin-right: 15px;
+	}
+	.youtube-link {
+		margin-right: 15px;
+	}
 }
 
 .fa-youtube-play:hover {
@@ -695,6 +710,33 @@ nav {
 .main {
 	max-width: 1200px;
 	margin: 0 auto;
+
+	height: 70vh;
+	overflow-x: hidden;
+	overflow-x: auto;
+	padding: 2px;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: white;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: white;
 }
 
 h1 {
@@ -735,6 +777,7 @@ h1 {
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-bottom: 30px;
+	justify-content: space-around;
 }
 
 .cards_item {
@@ -746,11 +789,19 @@ h1 {
 	.cards_item {
 		width: 50%;
 	}
+	.heading {
+		font-size: 12px;
+		font-weight: 200;
+	}
 }
 
 @media (min-width: 56rem) {
 	.cards_item {
 		width: 33.3333%;
+	}
+	.heading {
+		font-size: 12px;
+		font-weight: 200;
 	}
 }
 

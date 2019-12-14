@@ -419,7 +419,7 @@ nav {
 	display: block;
 	float: left;
 	width: 100%;
-	padding: 0 5rem;
+	padding: 0 2rem;
 	margin: 20rem 0 0 0;
 	background: url("/plinth/images/star.jpg");
 	-webkit-transition: background-color 1000ms linear;
@@ -511,9 +511,9 @@ nav {
 
 @media screen and (max-width: 48em) {
 	.footer__item--right {
-		padding-left: 2rem;
+		padding-left: 1.5rem;
 		padding-right: 0rem;
-		width: 75%;
+		width: 50%;
 		text-align: right;
 		margin: 0;
 	}
@@ -568,6 +568,21 @@ nav {
 	text-decoration: none;
 	color: white;
 	transition: color 0.25s ease-in;
+}
+
+@media screen and (max-width: 48em) {
+	.facebook-link {
+		margin-right: 15px;
+	}
+	.twitter-link {
+		margin-right: 15px;
+	}
+	.instagram-link {
+		margin-right: 15px;
+	}
+	.youtube-link {
+		margin-right: 15px;
+	}
 }
 
 .fa-youtube-play:hover {
