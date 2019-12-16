@@ -2147,7 +2147,7 @@ body {
 	float: left;
 	width: 100%;
 	padding: 0 2rem;
-	margin: 20rem 0 0 0;
+	margin: 1rem 0 0 0;
 
 	-webkit-transition: background-color 1000ms linear;
 	position: fixed;
@@ -2931,7 +2931,7 @@ body.ready .navigation {
 }
 
 .section--social {
-	padding: 10rem 0;
+	padding: 0.5rem 0;
 }
 
 @media screen and (max-width: 30em) {
@@ -3226,9 +3226,10 @@ body.ready .navigation {
 }
 
 .social__subtitle {
-	opacity: 0.3;
+	opacity: 0.5;
 	letter-spacing: 0.3em;
 	margin: 1.5rem 0 0 0;
+	font-size: 2rem;
 }
 
 .social__list {

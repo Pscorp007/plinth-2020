@@ -354,6 +354,12 @@ nav {
 
 @media screen and (max-width: 480px) {
 	.row {
-		height: 55vh;
+		height: 53vh;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.row {
+		height: 45vh;
 	}
 }
