@@ -130,7 +130,7 @@ html {
 	position: relative;
 	min-height: 100%;
 	width: 100%;
-
+	overflow: hidden;
 	color: #fff;
 }
 
@@ -138,10 +138,10 @@ body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	overflow-x: hidden;
-	background: url("/plinth/images/background.jpg");
+	overflow: hidden;
+	background: url("/plinth/images/Header/nebula.png") top right no-repeat, url("/plinth/images/background.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
 
 	z-index: -2;
 
