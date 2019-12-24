@@ -139,9 +139,6 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
-	background: url("/plinth/images/Header/nebula.png") top right no-repeat, url("/plinth/images/background.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
 
 	z-index: -2;
 
@@ -367,7 +364,7 @@ body {
 	z-index: -2;
 	transform: translate3d(0, 0, 0);
 	will-change: transform;
-	opacity: 0;
+
 	width: 100vw;
 	height: calc(100% + 200px);
 }
@@ -452,7 +449,7 @@ body {
 	top: 0;
 	width: 785px;
 	height: 692px;
-	background: url("images/Header/nebula.png") top right no-repeat;
+	background: url("/plinth/images/Header/nebula.png") top right no-repeat;
 	background-size: contain;
 	opacity: 0.6;
 	z-index: -1;

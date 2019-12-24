@@ -142,12 +142,6 @@ body {
 	overflow-x: hidden;
 	overflow-y: auto;
 
-	background: url("/plinth/images/Header/nebula.png") top right no-repeat, url("/plinth/images/background.jpg");
-
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-
 	z-index: -2;
 
 	height: calc(100% + 200px);
@@ -610,7 +604,7 @@ nav {
 	z-index: -2;
 	transform: translate3d(0, 0, 0);
 	will-change: transform;
-	opacity: 0;
+
 	width: 100vw;
 	height: calc(100% + 200px);
 }
