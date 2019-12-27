@@ -131,7 +131,7 @@ html {
 	min-height: 100%;
 	width: 100%;
 	overflow-y: auto;
-
+	background-color: #000;
 	color: #fff;
 }
 
@@ -586,7 +586,6 @@ nav {
 	z-index: -2;
 	transform: translate3d(0, 0, 0);
 	will-change: transform;
-
 	width: 100vw;
 	height: calc(100% + 200px);
 }

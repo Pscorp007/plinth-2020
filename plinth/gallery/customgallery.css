@@ -94,7 +94,7 @@
 .wrapper {
 	width: 100vw;
 	min-height: 100vh;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 	display: grid;
 	grid-template-rows: 20px 40px 100px 60px 20vh 20px 20vh 20px 20vh 20px 20vh 20px 20vh 20px 20vh 20px 20vh 20px 20vh 20px
 		20vh 20px 20vh 20px 20vh 20px 20vh 20px;

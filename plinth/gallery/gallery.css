@@ -130,9 +130,11 @@ html {
 	position: relative;
 	min-height: 100%;
 	width: 100%;
-
+	background-color: #000;
 	scroll-behavior: smooth;
 	color: #fff;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 body {
@@ -140,16 +142,11 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
-	background: url("/plinth/images/background.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-
+	overflow-y: auto;
 	z-index: -2;
-
 	animation: fadeInAnimation ease 4s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	height: calc(100% + 200px);
 }
 
 @keyframes fadeInAnimation {
@@ -368,7 +365,6 @@ body {
 	z-index: -2;
 	transform: translate3d(0, 0, 0);
 	will-change: transform;
-	opacity: 0;
 	width: 100vw;
 	height: calc(100% + 200px);
 }
@@ -453,7 +449,7 @@ body {
 	top: 0;
 	width: 785px;
 	height: 692px;
-	background: url("images/Header/nebula.png") top right no-repeat;
+	background: url("/plinth/images/Header/nebula.png") top right no-repeat;
 	background-size: contain;
 	opacity: 0.6;
 	z-index: -1;
