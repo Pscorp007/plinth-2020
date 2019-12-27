@@ -2425,7 +2425,7 @@ p {
 	.link--more {
 		float: none !important;
 		display: block;
-		width: 25rem;
+		width: 30rem;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -2472,7 +2472,7 @@ p {
 }
 
 .link__text {
-	margin-left: 1rem;
+	margin-left: 0rem;
 	position: relative;
 	padding: .5rem .3rem 0 .1rem;
 	letter-spacing: 0.2rem;
@@ -3139,6 +3139,14 @@ body.ready .navigation {
 		padding: 2.4rem 2.5rem 0;
 		line-height: 2rem;
 	}
+
+	.padding-competition {
+		padding-top: 25rem;
+	}
+
+	.padding-talk {
+		padding-top: 10rem;
+	}
 }
 
 .block__content--left {
@@ -3164,6 +3172,15 @@ body.ready .navigation {
 		line-height: 2.4rem;
 		text-align: left;
 	}
+
+	.padding-workshop {
+		padding-top: 15rem;
+	}
+
+	.padding-proshow {
+		padding-top: 12rem;
+	}
+
 	.block__content--left > a {
 		display: block;
 		font-size: 1.7rem;
