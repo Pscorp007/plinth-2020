@@ -536,14 +536,14 @@ body {
 	margin: 0;
 	padding: 0;
 
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: 600;
 }
 
 .team .box h4 {
 	margin: 0;
 	padding: 0;
-	font-size: 15px;
+	font-size: 12px;
 
 	font-weight: 400;
 	margin-top: 5px;
@@ -573,4 +573,17 @@ h2 {
 
 .active-link {
 	color: #c46b16 !important;
+}
+
+.heading {
+	font-family: "NGC-Regular", sans-serif;
+	letter-spacing: 0.15em;
+	margin: 3rem -0.3em 0 0;
+	font-size: 3rem;
+
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
 }
