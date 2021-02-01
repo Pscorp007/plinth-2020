@@ -141,9 +141,6 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 	overflow-y: auto;
-	background: url("/plinth/images/Header/nebula.png") top right no-repeat, url("/plinth/images/background.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
 
 	z-index: -2;
 	height: calc(100% + 200px);
@@ -165,7 +162,7 @@ body {
 	display: block;
 	float: left;
 	width: 100%;
-	padding: 0 5rem;
+	padding: 0 2rem;
 	margin: 20rem 0 0 0;
 	background: url("/plinth/images/star.jpg");
 	-webkit-transition: background-color 1000ms linear;
@@ -257,9 +254,9 @@ body {
 
 @media screen and (max-width: 48em) {
 	.footer__item--right {
-		padding-left: 2rem;
+		padding-left: 1.5rem;
 		padding-right: 0rem;
-		width: 75%;
+		width: 50%;
 		text-align: right;
 		margin: 0;
 	}
@@ -316,6 +313,21 @@ body {
 	transition: color 0.25s ease-in;
 }
 
+@media screen and (max-width: 48em) {
+	.facebook-link {
+		margin-right: 15px;
+	}
+	.twitter-link {
+		margin-right: 15px;
+	}
+	.instagram-link {
+		margin-right: 15px;
+	}
+	.youtube-link {
+		margin-right: 15px;
+	}
+}
+
 .fa-youtube-play:hover {
 	color: #c46b16 !important;
 	transition: color 0.35s ease-in;
@@ -343,7 +355,7 @@ body {
 
 .stars {
 	position: fixed;
-	background-image: url("/images/background.jpg");
+	background-image: url("/plinth/images/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -352,7 +364,6 @@ body {
 	z-index: -2;
 	transform: translate3d(0, 0, 0);
 	will-change: transform;
-	opacity: 0;
 	width: 100vw;
 	height: calc(100% + 200px);
 }
@@ -437,7 +448,7 @@ body {
 	top: 0;
 	width: 785px;
 	height: 692px;
-	background: url("/images/Header/nebula.png") top right no-repeat;
+	background: url("/plinth/images/Header/nebula.png") top right no-repeat;
 	background-size: contain;
 	opacity: 0.6;
 	z-index: -1;
